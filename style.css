@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+    color: palegreen;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: palegreen;
+    margin-top: 0;
+    border-bottom-right-radius: 3rem;
+}
+
+.main {
+    margin: 1rem 1rem 2rem 0;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 0.7rem;
+    
+}
+
+.main:hover {
+    transition: 0.3s;
+    border-bottom: 2px solid black;
+    border-bottom-right-radius: 3px;
+    border-radius: 0.5rem;
+    border-top-left-radius: 0.9rem black;
+}
+
+.currentPage {
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin: 1rem 0;
+}
+
+.button {
+    
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 2px solid #50C878;
+    color: palegreen;
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: 0.3s;
+    background-color: palegreen;
+    color: black;
+    border: 2px solid rgb(63, 104, 63);
+}
+
+.button:active {
+    transition: 0.1s;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+.alert {
+    background-color: #5ACA75;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+.head {
+    background-color: palegreen;
+    color: black;
+}
+
+
+.homeBTN {
+    width: 10rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 2px solid rgb(58, 82, 58);
+    color: palegreen;
+    
+}
+
+.homeBTN:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    border: 2px solid palegreen;
+    padding: 0.5rem 0;
+    transition: 0.3s;
+}
+
+.homeBTN:active {
+    transition: 0.1s;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list {
+    list-style: none;
+    
+}
+
+.listMargin {
+    margin-top: 3rem;
+}
